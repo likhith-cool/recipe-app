@@ -28,6 +28,7 @@ SECRET_KEY = 'django-insecure-h71il!e_)3s4&^4og+g)e5)r1f3yqp#ppzo*1bl%7qdm***cy8
 DEBUG = True
 
 ALLOWED_HOSTS = ['*']
+CSRF_TRUSTED_ORIGINS = ['https://recipe-app-production-733d.up.railway.app/']
 
 
 # Application definition
